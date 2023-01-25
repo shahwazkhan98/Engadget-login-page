@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rajdhani&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+
+}
+.background-section{
+    height: 100%;
+    width: 67%;
+    /* background-color: #2853ee; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,31,191,1) 1%, rgba(0,212,255,1) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.background-section h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 110px;
+}
+.background-section h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+}
+.background-section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-size: 600;
+}
+.login-section{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 70px 60px 0px 60px;
+
+}
+.login-section img{
+    height: 25px;
+}
+.login-section h1{
+    font-size: 23px;
+    font-weight: 500;
+    /* padding: 80px 0px; */
+    
+    font-family: 'Roboto', sans-serif;
+}
+.login-section .email-section{
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(191, 179, 179);
+    background: none;
+    margin-top: 80px;
+    /* text-decoration: none; */
+    /* background-color: none; */
+}
+.login-section .nxt-btn{
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #3399cc;
+    color: white;
+}
+.login-section .check-section{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+.login-section .check{
+    height: 13px;
+    width: 15px;
+    /* margin-right: 5px; */
+}
+.login-section .login{
+    /* background-color: #fff; */
+    /* margin-top: 20px; */
+    height: 20px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.login-section a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #3399cc;
+}
+.login-section .create-btn{
+    font-size: 18px;
+    color: #3399cc;
+    background: none;
+    border: 1px solid #3399cc;
+    height: 40px;
+    width: 100%;
+}
+.login-section .google-btn{
+    border: 1px solid rgb(191, 179, 179);
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background: none;
+    /* margin-bottom: 10px; */
+}
+.privacy{
+    margin-top: 20px;
+
+}
+
+
+@media(max-width:768px){
+    .background-section{
+        display: none;
+    }
+    .login-section{
+        width: 100%;
+    }
+
+}
+
